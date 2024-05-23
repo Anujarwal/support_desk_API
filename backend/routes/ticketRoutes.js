@@ -4,7 +4,7 @@ const {
   addTicket,
   getTicket,
   updateTicket,
-} = require("../controllers/ticketcontroller");
+} = require("../controllers/ticketController");
 const protect = require("../middleware/authMiddleWare");
 
 const router = express.Router();
